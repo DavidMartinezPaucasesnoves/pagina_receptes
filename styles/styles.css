@@ -296,7 +296,7 @@ body {
 
 
 
-/* ------------------------------------------------ */
+/* ------------------------------------------------ 1024*/
 @media (max-width: 1024px) {
   .menu {
     flex-wrap: wrap;
@@ -331,15 +331,18 @@ body {
     width: 20%;
   }
 
+
   .seccion-recetas {
     gap: 30px;
     margin: 0 30px;
   }
 
+
 	.seccion-populares {
     gap: 30px;
     margin: 0 30px;
   }
+
 
   .aboutme-imagen {
     width: 40%;
@@ -351,7 +354,9 @@ body {
   }
 }
 
-/* ------------------------------------------------ */
+
+
+/* ------------------------------------------------ 768*/
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
@@ -375,6 +380,7 @@ body {
     width: 40%;
   }
 
+
   .seccion-recetas {
     flex-direction: column;
     align-items: center;
@@ -383,6 +389,7 @@ body {
   .receta {
     width: 90%;
   }
+
 
   .novedades {
     margin: 40px 20px;
@@ -394,6 +401,7 @@ body {
     padding-right: 0;
   }
 
+
   .seccion-populares {
     flex-direction: column;
     align-items: center;
@@ -401,6 +409,8 @@ body {
     gap: 40px;
   }
 
+
+/* He visto que es una buen práctica, no se si es verdad*/
   .aboutme-imagen {
     display: none;
   }
@@ -417,7 +427,9 @@ body {
   }
 }
 
-/* ------------------------------------------------ */
+
+
+/* ------------------------------------------------ 480 */
 @media (max-width: 480px) {
   .menu {
     font-size: 90%;
@@ -442,16 +454,18 @@ body {
     margin: 20px;
   }
 
+
   .titulo-PopularRecipes {
     font-size: 1.8rem;
     margin: 20px;
   }
-
-  .imagen-receta {
+  
+  .imagen-popular {
     height: 200px;
   }
 
-  .imagen-popular {
+
+  .imagen-receta {
     height: 200px;
   }
 
@@ -469,20 +483,20 @@ body {
     height: auto;
   }
 
+
   footer img {
     width: 100px;
   }
 }
 
-/* ------------------------------------------------ */
+
+
+/* ------------------------------------------------ 360 */
 @media (max-width: 360px) {
   .menu {
     font-size: 80%;
   }
 
-  .boton-titulo {
-    width: 70%;
-  }
 
   .titulo h1 {
     font-size: 1.3rem;
@@ -492,9 +506,15 @@ body {
     font-size: 1rem;
   }
 
+  .boton-titulo {
+    width: 70%;
+  }
+
+
   .receta p {
     font-size: 0.85rem;
   }
+
 
   .end .elemento-end {
     padding: 10px;
